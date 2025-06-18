@@ -1,0 +1,39 @@
+/*main, section, #section1, article, .color-art,
+#section2, #section3 */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100svw;
+  height: 100svh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#section1 {
+  height: 100px;
+  width: 100px;
+  background-color: #ff5733;
+  position: relative;
+  top: 0px;
+  left: -200px;
+}
+#section2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 87, 51, 0.5);
+  position: absolute;
+  bottom: 40px;
+  right: 200px;
+}
+#section3 {
+  width: 100px;
+  height: 100px;
+  background-color: hsla(287, 90%, 24%, 0.432);
+  position: fixed;
+  top: 0;
+  left: 0;
+}

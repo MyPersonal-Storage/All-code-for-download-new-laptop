@@ -1,0 +1,110 @@
+/* header h1 nav ul li a
+main section p img p
+.section-heading 
+#shrek-container  #fiona-container #donkey-container #dragon-container
+#puss-in-boots-container #farquaad-container #death-container
+#sign-up form 
+footer form p a */
+:root{
+    --primary-green: #181f1c;
+    --primary-brown: #2f2504;
+    --lighter-green: #9ea93f;
+    --moss-green: #60712f;
+}
+@font-face{
+    font-family: "Shrek";
+    src: url(./assets/shrek.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "Fontin-small";
+    src: url(./assets/Fontin-SmallCaps.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--moss-green);
+    display: flex;
+    flex-direction: column;
+    flex-flow: nowrap column;
+}
+a:active a:visited, a{
+    color: var(--lighter-green);
+    text-decoration: none;
+}
+header{
+    height: 15svh;
+    width: 100svw;background-color: var(--primary-green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    top: 0;
+}
+h1{
+    font-family: "Shrek" 'Times New Roman', 'Times New Roman', Times, serif;
+    color: var(--lighter-green);
+}
+nav{
+    width: 60svw;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+main{
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    height: 110svh;
+    width: 110svw;
+    background-color: var(--primary-brown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--primary-green);
+}
+article{
+    width: 40svh;
+    height: 40svw;
+}
+img{
+    aspect-ratio: 1 / 1;
+    max-height: 100%;
+    object-fit: contain;
+}
+.section-heading{
+    font-size: 40px;
+}
+footer{
+    height: 15svh;
+    width: 100svw;
+    background-color: var(--primary-green);
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: "Fontin", 'Times New Roman', Times, serif;
+    max-width: 60svw;
+    font-size: 18px;
+    background-color: 5px;
+    text-align: center;
+}
+#fiona-container, #dragon-container,  #farquaad-container, #sign-up{
+    background-color: var(--primary-green);
+}

@@ -1,0 +1,82 @@
+/*nav ul li
+main ul li ol li dl dt dd
+*/
+
+nav {
+  background-color: burlywood;
+  height: 100px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+nav a:visited {
+  color: red;
+}
+
+nav a:hover {
+  font-size: 30px;
+  color: blue;
+}
+nav a:active {
+  font-size: 45px;
+  color: purple;
+}
+a button {
+  background-color: red;
+  color: black;
+  padding: 10px;
+}
+a:hover button {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  cursor: help;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+a:active img {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  background-color: aquamarine;
+}
+main ul li {
+  list-style-image: url(./images/dollar.png);
+  margin-left: 100px;
+  line-height: 2;
+  color: green;
+  font: 40px;
+  background-color: floralwhite;
+  margin-top: 20px;
+  text-justify: center;
+  list-style-position: outside;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+main ol {
+  list-style-image: url(./images/envelope.png);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: orangered;
+  text-align: center;
+  list-style-position: inside;
+}
+dl {
+  color: blue;
+}
+dt {
+  color: darkred;
+}

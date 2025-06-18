@@ -1,0 +1,100 @@
+/* header, h1, nav, ul, a, li
+main, section, p
+#neon-diner, #skyscraper, #tokyo-street, #tokyo-restaurant, #palms
+.bg-img, .bg-color */
+
+/* Pink: #F72585
+Purple: #7209B7
+Indigo: #3A0CA3
+Blue: #4361EE
+Turquoise: #4CC9F0 */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  min-width: 100svw;
+  height: 70px;
+  background-color: #3a0ca3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 18px;
+}
+nav {
+  width: 60svw;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100%;
+  font-size: 10px;
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #f72585;
+  font-family: "Press Start 2P", system-ui;
+}
+a:hover li {
+  font-size: 16px;
+  font-family: "Press Start 2P", system-ui;
+}
+main {
+  background-color: #4cc9f0;
+  min-height: 100svh;
+  min-width: 100svw;
+}
+section {
+  min-width: 100svw;
+  min-height: 100svh;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7209b7;
+  display: flex;
+  align-items: center;
+}
+
+.bg-img {
+  background-color: #4361ee;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#neon-diner {
+  background-image: url(./img/adrian-newell-LoeVFJR1Py8-unsplash.jpg);
+  background-position: center;
+}
+
+#skyscraper {
+  background-image: url(./img/cash-macanaya-kUpA8qN28GE-unsplash.jpg);
+}
+
+#tokyo-street {
+  background-image: url(./img/jezael-melgoza-layMbSJ3YOE-unsplash.jpg);
+}
+
+#tokyo-restaurant {
+  background-image: url(./img/ronald-langeveld-gN8yt9g6PBs-unsplash.jpg);
+  background-position: center;
+}
+
+#palms {
+  background-image: url(./img/sonder-quest-VE9pIb8QNQ4-unsplash.jpg);
+}
